@@ -1,6 +1,6 @@
 const SUPABASE_URL = "https://iapxuilqldykkbwyjeop.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcHh1aWxxbGR5a2tid3lqZW9wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwOTgxOTQsImV4cCI6MjA3NzY3NDE5NH0.FHGhqpcVhafSoAlS3fKv4opbPSTZzH2Td6sPzco45z0";
-const supabase = supabase.createClient(https://iapxuilqldykkbwyjeop.supabase.co, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcHh1aWxxbGR5a2tid3lqZW9wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwOTgxOTQsImV4cCI6MjA3NzY3NDE5NH0.FHGhqpcVhafSoAlS3fKv4opbPSTZzH2Td6sPzco45z0);
+const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // DOM elements
 const email = document.getElementById('email');
